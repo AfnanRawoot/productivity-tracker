@@ -35,3 +35,7 @@ The app allows users to manage daily tasks with priority marking and persistent 
 
 ## Project Structure
 
+├── index.html
+├── style.css
+├── script.js
+└── README.md

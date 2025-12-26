@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="./fav/apple-touch-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <section class="allelem">
+            <nav>
+                <h1>Productivity Tracker</h1>
+                <button id="themeBtn">Change Theme</button>
+            </nav>
+            <header>
+
+                <div class="header1">
+
+                    <!-- <h4>Weather</h4> -->
+                    <h2>26 April 2004</h2>
+                    <h1>
+                        <!-- Friday, 12:00 am -->
+                    </h1>
+                    <h4>Morba </h4>
+                </div>
+                <div class="header2">
+                    <h2>20 °C</h2>
+                    <h3 class="preci">Precipitation 35%</h3>
+                    <h3 class="humi">Humidity: 49%</h3>
+                    <h3 class="wind">Wind:10 km/hr </h3>
+
+                </div>
+
+            </header>
+            <div class="allFeatures">
+                <div class="todo elem " id="0"> <img src="todo.avif" alt="">
+                    <h2> To Do List</h2>
+                </div>
+                <div class="daily elem" id="1"> <img src="daily planner.avif" alt="">
+                    <h2>Daily Planner</h2>
+                </div>
+                <div class="moto elem" id="2"> <img src="moti.avif" alt="">
+                    <h2>Motivation Quote</h2>
+                </div>
+                <div class="pomod elem" id="3"> <img src="timer.avif" alt="">
+                    <h2> Pomodoro Timer</h2>
+                </div>
+                <div class="goals elem" id="4"> <img src="goals.avif" alt="">
+                    <h2>Daily Goals</h2>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="fullelem todo-list-fullpage">
+            <button class="back" id="0"> Close </button>
+            <h2> Your Personalised To-Do List</h2>
+            <div class="todo-container">
+                <div class="addtask">
+                    <form>
+                        <h3>Add Tasks</h3>
+                        <input id="input-task" type="text" placeholder="Enter Task">
+                        <textarea placeholder="Enter Details" name="" id="" cols="30" rows="8"></textarea>
+
+                        <div class="mark-imp">
+                            <input type="checkbox" name="" id="check">
+                            <label for="check">Mark as important!</label>
+                        </div>
+
+                        <button>Add Task</button>
+                    </form>
+                </div>
+                <div class="alltask">
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+        <section class="fullelem daily-planner-fullpage">
+            <button class="back" id="1"> Close </button>
+            <h2>Plan your Day to be more Productive</h2>
+            <div class="day-planner">
+
+            </div>
+
+        </section>
+
+        <section class="fullelem  moti-fullpage">
+            <button class="back" id="2"> Close </button>
+            <div class="motivational-container">
+
+                <div class="motivation-wrapper">
+                    <img src="moti.png" alt="">
+                    <div class="moti1">
+                        <h2>Ayaah of the Day</h2>
+                    </div>
+                    <div class="moti2">
+
+
+                        <h1></h1>
+                    </div>
+                    <div class="moti3">
+                        <h2></h2>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="fullelem pomo-fullpage">
+            <button class="back" id="3"> Close </button>
+            <h2>Study with Me!</h2>
+            <h4 class="session">
+                Work Session
+            </h4>
+            <div class="pomo-timer">
+                <h1>25:00</h1>
+
+                <button class="start">Start</button>
+                <button class="pause">Pause</button>
+                <button class="reset">Reset</button>
+
+            </div>
+
+        </section>
+
+
+        <section class="fullelem goals-fullpage">
+            <button class="back" id="4">Close </button>
+            <h1> My Next One Month Goals</h1>
+            <div class="goal-container">
+                <div class="addtask">
+                    <form>
+                        <h3>Add Tasks</h3>
+                        <input id="input-task" type="text" placeholder="Enter Task">
+                        <textarea placeholder="Enter Details" name="" id="" cols="30" rows="8"></textarea>
+
+                        <div class="mark-imp">
+                            <input type="checkbox" name="" id="check">
+                            <label for="check">Mark as important!</label>
+                        </div>
+
+                        <button>Add Task</button>
+                    </form>
+                </div>
+                <div class="alltask">
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
